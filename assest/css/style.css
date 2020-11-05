@@ -1,0 +1,64 @@
+body{
+    font-family: karla, sans-serif;
+    background-color: #e6eff6;
+}
+
+.content-row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.side{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.side h4{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+.side h5{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.side p{
+    color: hsl(218, 22%, 67%);
+}
+
+.your{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 5px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.your button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.your span{
+    color:  hsl(204, 43%, 93%);
+}
+
+.self{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-right-radius: 5px;
+    background-color: hsl(179, 62%, 48%);
+    line-height: 0.3cm;
+}
+
+.self p{
+    color:  hsl(204, 43%, 93%);
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-row{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+    }
+}
